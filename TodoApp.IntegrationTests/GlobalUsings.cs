@@ -1,0 +1,16 @@
+global using Xunit;
+global using Microsoft.AspNetCore.Mvc.Testing;
+global using ToDoApp.Constants;
+global using AutoFixture;
+global using FluentAssertions;
+global using TDDPOC.Repository;
+global using TodoApp.IntegrationTests.Fixtures;
+global using TodoApp.Models;
+global using Newtonsoft.Json;
+global using System.Net;
+global using System.Text;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Options;
+global using MongoDB.Driver;
+global using ToDoApp.Models;
+global using ToDoApp.Repository.DBContext;
